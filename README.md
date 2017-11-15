@@ -10,6 +10,6 @@
 Basic machine learning specification. Includes six course. Contains basic approaches and algorithms for machine learning.
 
 
-#### Course description
+#### Courses description
 
  * 1 course - contains mathematical and programing basis. 
