@@ -1,9 +1,15 @@
-### Machine learning introduction course.
+### Machine learning basic specification.
 
  * **Company** Yandex
  * **Language** Russian
- * **[Course page](https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/home/welcome)**
+ * **Programing language** Python 
+ * **[Specification page](https://www.coursera.org/specializations/machine-learning-data-analysis)**
 
-
+ 
 #### Short description
-Introduction into machine learning. Includes one course (7 weeks). Contains high-level view on machine learning approaches and algorithms.
+Basic machine learning specification. Includes six course. Contains basic approaches and algorithms for machine learning.
+
+
+#### Course description
+
+ * 1 course - contains mathematical and programing basis. 
