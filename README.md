@@ -16,3 +16,4 @@ Basic machine learning specification. Includes six course. Contains basic approa
  * 2 course - Supervised learning. Includes linear algorithms, metrics, overfitting and underfitting problems and etc. 
  * 3 course - Unsupervised learning. Includes clusterization algorithms, metrics, text processing and thematic modeling. 
  * 4 course - Statistics. Includes introduction into statistical approaches. 
+ * 4 course - Data analysis applications. Business which can be solved by machine learning  approach.
