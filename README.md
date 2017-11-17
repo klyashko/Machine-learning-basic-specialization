@@ -12,4 +12,5 @@ Basic machine learning specification. Includes six course. Contains basic approa
 
 #### Courses description
 
- * 1 course - contains mathematical and programing basis. 
+ * 1 course - Contains mathematical and programing basis. 
+ * 2 course - Supervised learning. Includes linear algorithms, metrics, overfitting and underfitting problems and etc. 
