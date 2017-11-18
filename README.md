@@ -21,10 +21,14 @@ Basic machine learning specification. Includes six course. Contains basic approa
  
  #### Projects description
  
- * 1 Project - Identification user on the internet
-      Data   - list of user's sessions 
-      Target - User id
+ * 1 Project - Identification user on the internet.
+      Data   - list of user's sessions.
+      Target - User id.
       
- * 2 Project - Chunk analyze
-      Data   - Dataset of user one company  
+ * 2 Project - Chunk analyze.
+      Data   - Dataset of user one company.
       Target - Users which will stop use the company serves.
+      
+ * 3 Project - Time series prediction.
+      Data   - Count of rides in New York for 1 year (2016).
+      Target - How many taxi will be needed in each New York district.
