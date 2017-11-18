@@ -13,7 +13,14 @@ Basic machine learning specification. Includes six course. Contains basic approa
 #### Courses description
 
  * 1 course - Contains mathematical and programing basis. 
- * 2 course - Supervised learning. Includes linear algorithms, metrics, overfitting and underfitting problems and etc. 
+ * 2 course - Supervised learning. Includes linear algorithms, regularization, metrics, overfitting and underfitting problems and etc. 
  * 3 course - Unsupervised learning. Includes clusterization algorithms, metrics, text processing and thematic modeling. 
  * 4 course - Statistics. Includes introduction into statistical approaches. 
- * 4 course - Data analysis applications. Business which can be solved by machine learning  approach.
+ * 5 course - Data analysis applications. Business which can be solved by machine learning  approach.
+ * 6 course - Final projects
+ 
+ #### Projects description
+ 
+ * 1 Project - Identification user on the internet
+      Data - list of user's sessions 
+      Target - user id
