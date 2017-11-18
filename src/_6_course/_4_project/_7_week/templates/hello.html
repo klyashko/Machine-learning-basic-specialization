@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Sentiment Demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="background: url({{ url_for('static', filename='back.jpg') }}) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+<div class="col-sm-8 col-sm-offset-2">
+    <div class="panel panel-primary" style="margin-top: 10%">
+        <div class="panel-heading">Введите отзыв на телефон на русском языке:</div>
+        <div class="panel-body">
+            <form action="{{ url_for('index_page') }}" method=post>
+                <dl>
+                    <div class="input-group">
+                        <span class="input-group-addon">Text</span>
+                        <textarea class="form-control" name=text rows=10 cols=40>{{ text }}</textarea>
+                    </div>
+                    <div class="center-block">
+                        <input type=submit class="btn btn-primary center-block" style="margin-top:10px" value="Оценить">
+                    </div>
+                </dl>
+            </form>
+        </div>
+        <button class="btn btn-info" style="margin-left: 50px; margin-bottom: 10px" data-toggle="collapse" data-target="#examples">Примеры
+        </button>
+        <div id="examples" class="collapse">
+            <ul class="list-group" style="margin-left: 50px; margin-right: 50px">
+                <li class="list-group-item">Достоинства: Быстро грузит в интрнете,удобен в использовании,ну что ещё надо для полного
+                    счастья.Так по себе он не плох,у меня 3 года и рад что этот телефон у меня.<br/>
+                    Недостатки: Плохой динамик,акаммулятор не долгий,продерживает две пары 90 мин. максимум.Но в скором времени хочу купить
+                    по мощнее.<br/>
+                    Комментарий: Хороший телефон.Недавно прошил на (Android 4.1.2.Belly Gean) Ceanogen Mod 7.
+                    Таких моделий насколько я уже знаю мало но помню время когда этот телефон считался одним из лучших за свой дизайн и
+                    удобность.
+                    Помню момент когда зашёл в магазин подошёл к этому телефону и минут 20 смотрел не отрываясь.Подзаработал и купил))))
+                </li>
+                <li class="list-group-item">Достоинства: Ну наверное это то что он смартфон. Вот его достоинство.<br/>
+                    Недостатки: Прошивку лучше не ставить, из за нее у вас сдохнет батарея и придется вечно покупать новую .
+                    Через пол года примерно, полетел экран, 1500 ремонта. Многие современные приложения на нем не идут.
+                    Память забивается почему то мгновенно.<br/>
+                    Комментарий: Покупать эту модель не советую. Лучше уж Nokia, там хоть батарея практичнее.
+                </li>
+                <li class="list-group-item">Достоинства: симпотичный дизайн,функциональный<br/>
+                    Недостатки: не знай как у остальных,телефон спустя неделю начел сам убовлять звук,куда еще тише.
+                    Прошел месяц звука практически нет совсем.<br/>
+                    Комментарий: либо телефон попался с браком или торгующая организация постаралась.
+                </li>
+            </ul>
+        </div>
+        <div class="panel-footer">
+        <pre>
+            Оценка: {{ prediction_message }}
+        </pre>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+

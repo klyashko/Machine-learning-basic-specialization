@@ -32,3 +32,7 @@ Basic machine learning specification. Includes six course. Contains basic approa
  * 3 Project - Time series prediction.
       Data   - Count of rides in New York for 1 year (2016).
       Target - How many taxi will be needed in each New York district.
+      
+ * 4 Project - Text semantic analyze.
+      Data   - Users review.
+      Target - Classification on positive and negative.
